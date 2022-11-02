@@ -1,0 +1,86 @@
+/*APP*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/*CATEGORIES*/
+
+.section {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding-top: 1.5rem;
+  margin-bottom: 4rem;
+}
+
+.products__card__img {
+  border-color: white;
+  padding: 1rem 1rem;
+  margin: 1rem;
+  background: #141616;
+  background: black;
+  border-radius: 0.2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/*CATEGORIES CONTAINER*/
+
+.categories__cards {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-template-rows: auto auto auto;
+  justify-items: center;
+  border: 0;
+}
+
+.card {
+  background: transparent;
+}
+
+.main-cards {
+  padding: 3rem 5rem;
+  border-radius: 10px;
+}
+
+.padding-main {
+  padding: 0 10rem;
+}
+
+.hamburguesas {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(https://firebasestorage.googleapis.com/v0/b/proyecto-final-react-767c1.appspot.com/o/img%2Fcategories%2Fburgas.jpg?alt=media&token=e110bfb0-f030-4ef7-b892-82158ade9e15) center / cover no-repeat;
+}
+
+.papas {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(https://firebasestorage.googleapis.com/v0/b/proyecto-final-react-767c1.appspot.com/o/img%2Fcategories%2Fpapas.jpg?alt=media&token=d9df8907-b793-488b-bafc-4463b4d53d7e) center / cover no-repeat;
+}
+
+.postres {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(https://firebasestorage.googleapis.com/v0/b/proyecto-final-react-767c1.appspot.com/o/img%2Fcategories%2Fpostres.jpg?alt=media&token=9e156cfc-71df-4d50-924c-f3732e6393ec) center / cover no-repeat;
+}
+
+.bebidas {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(https://firebasestorage.googleapis.com/v0/b/proyecto-final-react-767c1.appspot.com/o/img%2Fcategories%2Fbebidas.jpg?alt=media&token=55d08780-65d2-49f9-9f06-47bd0ff0a805) center / cover no-repeat;
+}
+
+/*FOOTER*/
+
+.footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+/*NAVBAR*/
+
+.container {
+  width: 50rem;
+}
